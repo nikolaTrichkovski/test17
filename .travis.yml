@@ -3,4 +3,6 @@ language: shell
 script: 
   - echo 'Testing'
   - echo "TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG"
+  - echo "TRAVIS_JOB_RESTARTED=$RAVIS_JOB_RESTARTED"
+  - echo "TRAVIS_JOB_RESTARTED_BY=$TRAVIS_JOB_RESTARTED_BY"
 install: skip
