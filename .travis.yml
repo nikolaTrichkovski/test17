@@ -1,4 +1,6 @@
 dist: focal
 language: shell
-script: echo 'Testing'
+script: 
+  - echo 'Testing'
+  - echo "TRAVIS_REPO_SLUG: $TRAVIS_REPO_SLUG"
 install: skip
